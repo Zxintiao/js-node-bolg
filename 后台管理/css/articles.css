@@ -1,0 +1,133 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.fm>button{
+    outline: none;
+    border: none;
+    width: 100px;
+    height: 30px;
+    margin: 0 10px 10px 0;
+    color: white;
+    font-weight: bolder;
+}
+.delete_more{
+    background-color: #FF5722;
+}
+.btn_push{
+    width: 80px;
+    background-color: #009688;
+}
+table{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    table-layout: fixed;
+    border-collapse: collapse;
+    /* border-spacing: 0; */
+    background-color: aqua;
+}
+
+tr,th,td{
+    border: 1px solid #000;
+    line-height: 30px;
+}
+.one{
+    width: 5%;
+}
+.two{
+    width: 20%;
+}
+.three{
+    width: 20%;
+}
+.four{
+    width: 8%;
+}
+.five{
+    width: 8%;
+}
+.six{
+    width: 25%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.seven{
+    width: 8%;
+}
+.eight{
+    width: 8%;
+}
+.nine{
+    width: 20%;
+}
+.nine>button{
+    margin: 0 20px 0 20px;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: bolder;
+}
+.nine>button:nth-child(1){
+    background-color: red;
+}
+.nine>button:nth-child(2){
+    background-color: green;
+}
+/* 遮罩层 */
+.layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+}
+/* 跟新 */
+.articleAdd{
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+    position: absolute;
+    background-color: #fff;
+    top: 100px;
+    left: 300px;
+    display: none;
+}
+.articleForm>div{
+    text-align: center;
+    margin-top: 20px;
+}
+.articleForm>div>input{
+    width: 300px;
+    height: 50px;
+    border: 1px solid #e2e2e2;
+    padding-left: 6px;
+}
+textarea{
+    vertical-align: -webkit-baseline-middle;
+    width: 300px;
+    text-indent: 25px;
+    border: 1px solid #e2e2e2;
+}
+.articleForm>div>button{
+    display: inline-block;
+    width: 65px;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 18px;
+    background-color: #009688;
+    color: #fff;
+    white-space: nowrap;
+    text-align: center;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    opacity: 0.9;
+    margin: 0 30px;
+}
+.articleForm>div>.noIn{
+    background-color: yellowgreen;
+}

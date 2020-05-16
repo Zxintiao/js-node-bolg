@@ -1,0 +1,178 @@
+/* main */
+main{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 10px;
+    position: relative;
+    left: -1500px;
+    transition: left 0.6s ease-out;
+}
+.aside_nav{
+    float: left;
+    top: 55px;
+    background-color: #fff;
+    width: 200px;
+    border-right: 1px solid #ccc;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
+    cursor: pointer;
+}
+.aside_nav li {
+    padding: 0 0 0 16px;
+    line-height: 35px;
+    margin-bottom: 1px;
+}
+.aside_nav .acc{
+    background-color: #b20b13;
+    color: #fff;
+}
+.aside_nav li:hover {
+    background-color: #fde3e4;
+    color:  #ca0c16;
+}
+/* content */
+.content{
+    float: left;
+    width: 1000px;
+    padding: 0 32px;
+    background-color: #fff;
+}
+.title{
+    font-size: 20px;
+    color: #3d3d3d;
+    height: 90px;
+    line-height: 90px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.user_info{
+    padding-top: 10px;
+}
+.user_photo{
+    width: 100px;
+    height: 144px;
+    float: left;
+}
+.user_photo>img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.user_photo>div{
+    font-size: 14px;
+    color: #3399ea;
+    margin-top: 8px;
+    cursor: pointer;
+    text-align: center;
+}
+.user_content{
+    width: 775px;
+    float: left;
+    margin-left: 60px;
+}
+.Id{
+    line-height: 45px;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+    color: #999;
+    position: relative;
+}
+.change{
+    position: absolute;
+    right: 0;
+    bottom: -50px;
+    color: #157dcf;
+    cursor: pointer;
+}
+
+.user_right>li{
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #4d4d4d;
+}
+.alter{
+    display: none;
+}
+.alter>p{
+    line-height: 36px;
+    font-size: 14px;
+    /* overflow: hidden; */
+    margin-top: 16px;
+}
+.alter>p>span{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    margin-right: 5px;
+    height: 36px;
+    line-height: 36px;
+}
+.alter>p>input[type="text"]{
+    outline: none;
+    -webkit-appearance: none;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #dcdfe6;
+    width: 186px;
+    height: 36px;
+    line-height: 36px;
+    padding-left: 8px;
+}
+.alter>p>input:focus{
+    border-color: #409eff;
+}
+.alter>p>input[type="radio"]{
+    outline: none;
+    -webkit-appearance: none;
+    border: 1px solid #dcdfe6;
+    border-radius: 100%;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+}
+.alter>p>.Asex_m{
+    width: 30px;
+    text-align: left;
+} 
+.alter>p>.Asex_w{
+    width: 30px;
+    text-align: left;
+} 
+.alter>p>.acac{
+    border-color: #409eff;
+    background-color: #409eff;
+}     
+.Aresume>textarea{
+    vertical-align: -webkit-baseline-middle;
+    outline: none;
+    -webkit-appearance: none;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #dcdfe6;
+    width: 350px;
+    height: 120px;
+    padding-left: 8px;
+}
+.alter>button{
+    width: 100px;
+    height: 40px;
+    margin: 40px 100px;
+    outline: none;
+}
+.alter>.cancel{
+    background: #e0e0e0;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #3d3d3d;
+    border: none;
+    margin-right: 42px;
+    cursor: pointer;
+}
+.alter>.ensure{
+    background: #ca0d16;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}

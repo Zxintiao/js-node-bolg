@@ -1,0 +1,86 @@
+{
+  "id": "1625023",
+  "name": "寒假作业",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "399156",
+      "name": "聊天",
+      "font_class": "liaotian",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "860809",
+      "name": "赞",
+      "font_class": "zan",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "1440887",
+      "name": "放大镜",
+      "font_class": "fangdajing",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "2529736",
+      "name": "二维码",
+      "font_class": "qr-code",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "2767648",
+      "name": "耳麦",
+      "font_class": "ermai",
+      "unicode": "e72f",
+      "unicode_decimal": 59183
+    },
+    {
+      "icon_id": "4562822",
+      "name": "铃铛",
+      "font_class": "lingdang",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "4770734",
+      "name": "上箭头",
+      "font_class": "shangjiantou",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
+      "icon_id": "8145817",
+      "name": "箭头",
+      "font_class": "jiantou",
+      "unicode": "e663",
+      "unicode_decimal": 58979
+    },
+    {
+      "icon_id": "9148956",
+      "name": "箭头",
+      "font_class": "weimingmingwenjianjia_jiantou",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "9402959",
+      "name": "眼睛",
+      "font_class": "changyongicon-",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "9512486",
+      "name": "下箭头",
+      "font_class": "arrowBottom-fill",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    }
+  ]
+}

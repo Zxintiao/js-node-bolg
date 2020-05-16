@@ -1,0 +1,29 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'cors',
+1 verbose cli   '--save'
+1 verbose cli ]
+2 info using npm@6.13.4
+3 info using node@v12.14.0
+4 verbose npm-session 32060dd71b171ed1
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 verbose stack Error: spawn C:\Program Files\nodejs\node.exe ENOENT
+7 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:264:19)
+7 verbose stack     at onErrorNT (internal/child_process.js:456:16)
+7 verbose stack     at processTicksAndRejections (internal/process/task_queues.js:80:21)
+8 verbose cwd E:\前端\合作全栈\progress
+9 verbose Windows_NT 10.0.17763
+10 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "cors" "--save"
+11 verbose node v12.14.0
+12 verbose npm  v6.13.4
+13 error code ENOENT
+14 error syscall spawn C:\Program Files\nodejs\node.exe
+15 error path C:\Program Files\nodejs\node.exe
+16 error errno ENOENT
+17 error enoent spawn C:\Program Files\nodejs\node.exe ENOENT
+18 error enoent This is related to npm not being able to find a file.
+19 verbose exit [ 1, true ]

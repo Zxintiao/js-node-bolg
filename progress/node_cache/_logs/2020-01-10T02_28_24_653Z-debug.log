@@ -1,0 +1,25 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'prefix',
+1 verbose cli   '-g'
+1 verbose cli ]
+2 info using npm@6.13.4
+3 info using node@v12.14.0
+4 verbose stack Error: spawn C:\Program Files\nodejs\node.exe ENOENT
+4 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:264:19)
+4 verbose stack     at onErrorNT (internal/child_process.js:456:16)
+4 verbose stack     at processTicksAndRejections (internal/process/task_queues.js:80:21)
+5 verbose cwd E:\前端\合作全栈\progress
+6 verbose Windows_NT 10.0.17763
+7 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "prefix" "-g"
+8 verbose node v12.14.0
+9 verbose npm  v6.13.4
+10 error code ENOENT
+11 error syscall spawn C:\Program Files\nodejs\node.exe
+12 error path C:\Program Files\nodejs\node.exe
+13 error errno ENOENT
+14 error enoent spawn C:\Program Files\nodejs\node.exe ENOENT
+15 error enoent This is related to npm not being able to find a file.
+16 verbose exit [ 1, true ]

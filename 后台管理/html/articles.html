@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/articles.css">
+
+</head>
+
+<body>
+
+    <div class="fm">
+        <button class="delete_more">批量删除</button>
+        <button class="btn_push">新增内容</button>
+        <table class="articles_list">
+            <thead>
+                <tr>
+                    <th class="one">选择</th>
+                    <th class="two">标题</th>
+                    <th class="three">创建时间</th>
+                    <th class="four">阅读数</th>
+                    <th class="five">点赞数</th>
+                    <th class="six">文章内容</th>
+                    <th class="seven">种类</th>
+                    <th class="eight">作者</th>
+                    <th class="nine">操作</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+
+
+    <!-- 遮罩层 -->
+    <div class="layer">
+        <!-- 更新 -->
+        <div class="articleAdd" id="uparticle">
+            <form class="articleForm" action="">
+                <div>
+                    <label for="">文章名字</label>
+                    <input type="text" id="articlename" name="title">
+                </div>
+                <div>
+                    <label for="">文章内容</label>
+                    <textarea name="content" id="articlecontent" cols="30" id="articlecontent" rows="10"></textarea>
+                </div>
+                <div>
+                    <label for="">文章种类</label>
+                    <input type="text" name="kind" id="articlekind">
+                </div>
+                <div>
+                    <label for="">创建时间</label>
+                    <input type="text" name="createDate" id="articletimedata">
+                </div>
+                <div>
+                    <button class="upPutIn">提交</button>
+                    <button class="noIn">取消</button>
+                </div>
+            </form>
+        </div>
+        <!-- 添加 -->
+        <div class="articleAdd" id="articleAdd">
+            <form class="articleForm" action="">
+                <div>
+                    <label for="">文章名字</label>
+                    <input type="text" id="title" name="title">
+                </div>
+                <div>
+                    <label for="">文章内容</label>
+                    <input type="text" id="content" name="content" style="height: 100px;">
+                </div>
+                <div>
+                    <label for="">文章种类</label>
+                    <input type="text" name="kind" id="kind">
+                </div>
+                <div>
+                    <label for="">作者</label>
+                    <input type="text" name="userID" id="userID">
+                </div>
+                <div>
+                    <button class="addPutIn">提交</button>
+                    <button class="noIn">取消</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="../lib/jquery.js"></script>
+    <script src="../js/articles.js"></script>
+</body>
+
+</html>
